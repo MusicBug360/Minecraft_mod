@@ -9,9 +9,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item RAW_MUSICITE = registerItem("raw_musicite",
+    public static final Item RAW_MUSICITE = registerItem("raw_progrium",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    public static final Item MUSICITE = registerItem("musicite",
+    public static final Item MUSICITE = registerItem("progrium_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
