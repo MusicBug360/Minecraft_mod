@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:progrium_ingot"
+    }
+  },
+  "result": {
+    "item": "testmod:progrium_block"
+  }
+}
