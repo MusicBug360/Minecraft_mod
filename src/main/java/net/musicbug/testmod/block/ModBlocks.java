@@ -13,7 +13,7 @@ import net.musicbug.testmod.TestMod;
 
 public class ModBlocks {
     public static final Block PROGRIUM_BLOCK = registerBlock("progrium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(2)), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block ANTILIGHT = registerBlock("antilight",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1f).luminance(-20)), ItemGroup.BUILDING_BLOCKS);

@@ -6,6 +6,7 @@ import net.minecraft.util.Identifier;
 import net.musicbug.testmod.TestMod;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
+import net.musicbug.testmod.item.custom.DSixItem;
 
 public class ModItems {
 
@@ -13,6 +14,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item MUSICITE = registerItem("progrium_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item D_SIX = registerItem("d_six",
+            new DSixItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
 
 
