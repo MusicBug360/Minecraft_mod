@@ -29,6 +29,6 @@ public class DSixItem extends Item {
     }
 
     private int getRandomNumber() {
-        return Random.createLocal().nextInt(10);
+        return Random.createLocal().nextInt(6)+1;
     }
 }
