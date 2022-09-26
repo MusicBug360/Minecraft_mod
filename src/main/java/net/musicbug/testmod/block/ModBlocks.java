@@ -10,6 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.musicbug.testmod.TestMod;
+import net.musicbug.testmod.block.custom.ProgriumBooster;
 
 public class ModBlocks {
     public static final Block PROGRIUM_BLOCK = registerBlock("progrium_block",
@@ -19,6 +20,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(1f).luminance(-20)), ItemGroup.BUILDING_BLOCKS);
 
 
+    public static final Block PROGRIUM_BOOSTER = registerBlock("progrium_booster",
+            new ProgriumBooster(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
