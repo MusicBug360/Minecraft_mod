@@ -26,6 +26,9 @@ public class ProgriumBooster extends Block {
 
         if(!world.isClient() && hand == Hand.MAIN_HAND) {
             player.sendMessage(Text.literal("Speed and Jump Boost have been given."));
+            player.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 60));
+            player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 60));
+
         }
 
         return super.onUse(state, world, pos, player, hand, hit);
