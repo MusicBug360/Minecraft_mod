@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "testmod:progrium_ingot"
+    },
+    "S": {
+      "item": "minecraft:redstone"
+    }
+  },
+    "pattern": [
+      "###",
+      "#S#",
+      "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "testmod:progrium_booster"
+  }
+}

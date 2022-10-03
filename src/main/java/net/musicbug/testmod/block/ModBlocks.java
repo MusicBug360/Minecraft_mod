@@ -21,7 +21,7 @@ public class ModBlocks {
 
 
     public static final Block PROGRIUM_BOOSTER = registerBlock("progrium_booster",
-            new ProgriumBooster(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.BUILDING_BLOCKS);
+            new ProgriumBooster(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.REDSTONE);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
