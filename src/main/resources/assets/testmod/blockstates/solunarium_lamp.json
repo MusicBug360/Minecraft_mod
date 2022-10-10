@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "testmod:block/solunarium_lamp_on"},
+    "lit=false": { "model": "testmod:block/solunarium_lamp_off"}
+  }
+}

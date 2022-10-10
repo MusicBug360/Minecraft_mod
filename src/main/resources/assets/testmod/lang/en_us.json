@@ -5,5 +5,6 @@
 
   "block.testmod.progrium_block": "Block of Progrium",
   "block.testmod.antilight": "Antilight",
-  "block.testmod.progrium_booster": "Progrium Booster"
+  "block.testmod.progrium_booster": "Progrium Booster",
+  "block.testmod.solunarium_lamp": "Solunarium Lamp"
 }
