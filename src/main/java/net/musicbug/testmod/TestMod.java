@@ -3,6 +3,7 @@ package net.musicbug.testmod;
 import net.fabricmc.api.ModInitializer;
 import net.musicbug.testmod.block.ModBlocks;
 import net.musicbug.testmod.item.ModItems;
+import net.musicbug.testmod.painting.ModPaintings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +16,8 @@ public class TestMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModPaintings.registerPaintings();
 
 	}
 }
