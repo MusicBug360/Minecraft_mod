@@ -16,6 +16,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item D_SIX = registerItem("d_six",
             new DSixItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item BAN_HAMMER = registerItem("ban_hammer",
+            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 
 
