@@ -2,6 +2,7 @@ package net.musicbug.testmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.musicbug.testmod.TestMod;
 import net.minecraft.item.Item;
@@ -18,6 +19,9 @@ public class ModItems {
             new DSixItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item BAN_HAMMER = registerItem("ban_hammer",
             new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item AMEFIST = registerItem("amefist",
+            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    //public static final SwordItem
 
 
 
