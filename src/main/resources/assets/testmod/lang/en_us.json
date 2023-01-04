@@ -7,6 +7,8 @@
 
   "block.testmod.progrium_block": "Block of Progrium",
   "block.testmod.antilight": "Antilight",
+  "block.testmod.hamburger_block": "Hamburger Cube",
   "block.testmod.progrium_booster": "Progrium Booster",
+  "block.testmod.kill_block": "Kill Block",
   "block.testmod.solunarium_lamp": "Solunarium Lamp"
 }
