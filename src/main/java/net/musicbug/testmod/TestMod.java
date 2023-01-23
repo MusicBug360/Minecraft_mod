@@ -19,5 +19,7 @@ public class TestMod implements ModInitializer {
 
 		ModPaintings.registerPaintings();
 
+
 	}
 }
+

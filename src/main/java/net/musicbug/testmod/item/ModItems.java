@@ -8,6 +8,8 @@ import net.musicbug.testmod.TestMod;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
 import net.musicbug.testmod.item.custom.DSixItem;
+import net.musicbug.testmod.item.custom.DeathItem;
+
 
 public class ModItems {
 
@@ -21,6 +23,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item AMEFIST = registerItem("amefist",
             new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item DEATH_ITEM = registerItem("death_item",
+            new DeathItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     //public static final SwordItem
 
 

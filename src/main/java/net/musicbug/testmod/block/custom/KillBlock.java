@@ -37,7 +37,7 @@ public class KillBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
-            entity.damage(DamageSource.HOT_FLOOR, 20.0f);
+            entity.damage(DamageSource.GENERIC, 19.5f);
         }
 
         super.onSteppedOn(world, pos, state, entity);

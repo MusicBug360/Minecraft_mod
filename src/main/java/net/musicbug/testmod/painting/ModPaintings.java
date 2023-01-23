@@ -9,6 +9,7 @@ public class ModPaintings {
     public static final PaintingVariant ERUPTION = registerPainting("eruption", new PaintingVariant(16,16));
     public static final PaintingVariant I_FOUND = registerPainting("i_found", new PaintingVariant(64,64));
     public static final PaintingVariant SUSSY_SHOWDOWN = registerPainting("sussy_showdown", new PaintingVariant(32,32));
+    public static final PaintingVariant TEMPLE = registerPainting("temple", new PaintingVariant(32,32));
 
     private static PaintingVariant registerPainting(String name, PaintingVariant paintingVariant) {
         return Registry.register(Registry.PAINTING_VARIANT, new Identifier(TestMod.MOD_ID, name), paintingVariant);
