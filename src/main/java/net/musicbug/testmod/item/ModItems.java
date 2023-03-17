@@ -25,6 +25,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item DEATH_ITEM = registerItem("death_item",
             new DeathItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item DREAM_FRUIT = registerItem("dream_fruit",
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.DREAM_FRUIT)));
+    public static final Item SWEET_BERRY_PIE = registerItem("sweet_berry_pie",
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SWEET_BERRY_PIE)));
     //public static final SwordItem
 
 

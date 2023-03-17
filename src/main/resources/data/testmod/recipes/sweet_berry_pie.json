@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "WSW",
+    " W "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "testmod:sweet_berry_pie"
+  }
+}
