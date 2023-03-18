@@ -29,6 +29,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.DREAM_FRUIT)));
     public static final Item SWEET_BERRY_PIE = registerItem("sweet_berry_pie",
             new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SWEET_BERRY_PIE)));
+    public static final Item PEAR = registerItem("pear",
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.PEAR)));
+
     //public static final SwordItem
 
 
