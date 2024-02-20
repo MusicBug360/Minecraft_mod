@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "testmod:progrium_block",
-    "testmod:progrium_booster"
+    "testmod:misautium_block",
+    "testmod:misautium_booster"
   ]
 }

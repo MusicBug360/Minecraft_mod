@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "testmod:block/progrium_block"
+    "all": "testmod:block/misautium_booster"
   }
 }

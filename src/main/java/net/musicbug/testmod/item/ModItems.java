@@ -13,9 +13,9 @@ import net.musicbug.testmod.item.custom.DeathItem;
 
 public class ModItems {
 
-    public static final Item RAW_MUSICITE = registerItem("raw_progrium",
+    public static final Item RAW_MISAUTIUM = registerItem("raw_misautium",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    public static final Item MUSICITE = registerItem("progrium_ingot",
+    public static final Item MISAUTIUM_INGOT = registerItem("misautium_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item D_SIX = registerItem("d_six",
             new DSixItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));

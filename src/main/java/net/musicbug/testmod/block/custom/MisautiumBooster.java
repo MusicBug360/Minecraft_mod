@@ -14,8 +14,8 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class ProgriumBooster extends Block {
-    public ProgriumBooster(Settings settings) {
+public class MisautiumBooster extends Block {
+    public MisautiumBooster(Settings settings) {
         super(settings);
     }
 

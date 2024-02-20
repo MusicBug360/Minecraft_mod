@@ -1,6 +1,6 @@
 {
-  "item.testmod.raw_progrium": "Raw Progrium",
-  "item.testmod.progrium_ingot": "Progrium Ingot",
+  "item.testmod.raw_misautium": "Raw Misautium",
+  "item.testmod.misautium_ingot": "Misautium Ingot",
   "item.testmod.d_six": "D6",
   "item.testmod.ban_hammer": "Ban Hammer",
   "item.testmod.amefist": "Amefist",
@@ -9,10 +9,10 @@
   "item.testmod.sweet_berry_pie": "Sweet Berry Pie",
   "item.testmod.pear": "Pear",
 
-  "block.testmod.progrium_block": "Block of Progrium",
+  "block.testmod.misautium_block": "Block of Misautium",
   "block.testmod.antilight": "Antilight",
   "block.testmod.hamburger_block": "Hamburger Cube",
-  "block.testmod.progrium_booster": "Progrium Booster",
+  "block.testmod.misautium_booster": "Misautium Booster",
   "block.testmod.kill_block": "Kill Block",
   "block.testmod.solunarium_lamp": "Solunarium Lamp"
 }

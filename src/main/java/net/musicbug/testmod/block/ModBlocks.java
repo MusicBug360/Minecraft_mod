@@ -11,11 +11,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.musicbug.testmod.TestMod;
 import net.musicbug.testmod.block.custom.KillBlock;
-import net.musicbug.testmod.block.custom.ProgriumBooster;
+import net.musicbug.testmod.block.custom.MisautiumBooster;
 import net.musicbug.testmod.block.custom.SolunariumLampBlock;
 
 public class ModBlocks {
-    public static final Block PROGRIUM_BLOCK = registerBlock("progrium_block",
+    public static final Block MISAUTIUM_BLOCK = registerBlock("misautium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block ANTILIGHT = registerBlock("antilight",
@@ -24,8 +24,8 @@ public class ModBlocks {
     public static final Block HAMBURGER_BLOCK = registerBlock("hamburger_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1f)), ItemGroup.SEARCH);
 
-    public static final Block PROGRIUM_BOOSTER = registerBlock("progrium_booster",
-            new ProgriumBooster(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.REDSTONE);
+    public static final Block MISAUTIUM_BOOSTER = registerBlock("misautium_booster",
+            new MisautiumBooster(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(4)), ItemGroup.REDSTONE);
 
     public static final Block KILL_BLOCK = registerBlock("kill_block",
             new KillBlock(FabricBlockSettings.of(Material.STONE)), ItemGroup.REDSTONE);
